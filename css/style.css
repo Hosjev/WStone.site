@@ -12,24 +12,17 @@ body {
 
 #header-section {
   min-height: 500px;
-  /* background: #333;
-  background: url(../img/home.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: fixed; */
 }
 
-/* #header-section .dark-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  min-height: 700px;
-  background: rgba(0, 0, 0, 0.7);
-} */
-
 #header-section .header-inner {
-  padding-top: 150px;
+  padding-top: 120px;
+}
+
+/* overwrite the min width for x-lg screens */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1240px;
+  }
 }
 
 #header-section .card-form {
@@ -56,4 +49,21 @@ body {
 
 .card-body p {
   color: rgb(182, 181, 181);
+}
+
+.btn-outline-secondary {
+  background: rgb(182, 181, 181);
+  color: rgb(37, 37, 37);
+  text-shadow: none;
+  font-size: 1.3rem;
+}
+
+.tagline a {
+  color: #179adb;
+}
+
+.tagline a:hover {
+  color: rgb(173, 191, 207);
+  font-size: 1.2rem;
+  text-decoration: none;
 }
