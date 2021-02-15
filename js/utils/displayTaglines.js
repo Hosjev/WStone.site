@@ -4,7 +4,7 @@ const displayTaglines = (data) => {
       const { id, tagline } = item;
       return `
             <div class="p-1 tagline">
-                <i class="fas fa-quote-left fa-1x bg-transparent d-inline pr-2"></i>
+                <i id="quote-icon" class="fas fa-quote-left fa-1x bg-transparent d-inline pr-2"></i>
                 <p class="d-inline">
                     <a id="${id}" class="uniqueWork" href="#tagline-head">${tagline}</a>
                 </p>

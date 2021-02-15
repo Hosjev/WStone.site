@@ -127,9 +127,10 @@ body {
   color: #008ed6;
 }
 
-/* .card-body p {
-  color: rgb(182, 181, 181);
-} */
+#feather-icon,
+#quote-icon {
+  color: var(--clr-grey-4) !important;
+}
 
 /* .card-bg-change:hover {
   background: rgb(182, 181, 181);
@@ -145,15 +146,29 @@ body {
   font-size: 1.3rem;
 }
 
+#tagline-head h4 {
+  font-size: 1.6rem;
+  color: #0182c2;
+}
+
+#tagline-head small {
+  color: #333;
+}
+
 /* Tagline section */
 .tagline a {
-  color: #52afdd;
+  /* color: #52afdd; */
+  color: var(--clr-black);
   transition: var(--transition);
   font-size: 1.1rem;
 }
 
 .tagline a:hover {
-  color: rgb(191, 202, 211);
+  /* color: rgb(191, 202, 211); */
+  /* color: rgb(29, 36, 75); */
+  color: var(--clr-grey-3);
+  text-shadow: none;
+  font-weight: bolder;
   text-decoration: none;
 }
 
