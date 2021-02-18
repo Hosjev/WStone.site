@@ -12,7 +12,7 @@ const displayQuery = (queries, id) => {
     }).join("");
 
     myModal.innerHTML = `
-            <div class="modal dark text-dark mt-5" id="queryModal" style="display: block;">
+        <div class="modal dark text-dark mt-5" id="queryModal" style="display: block;">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
