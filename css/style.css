@@ -82,8 +82,10 @@ body {
 }
 
 .navbar {
-  border-bottom: #008ed6 3px solid;
-  opacity: 0.95;
+  /* border-bottom: #008ed6 3px solid; */
+  border-bottom: #38393a 2px solid;
+  background: #333;
+  opacity: 0.98;
 }
 
 #header-section {
