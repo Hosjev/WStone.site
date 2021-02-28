@@ -1,6 +1,7 @@
 import { queries } from "./utils/data.js";
 import displayQueryModal from "./utils/displayQueryModal.js";
 import displayTaglines from "./utils/displayTaglines.js";
+import showJacket from "./utils/displayReading.js";
 import get from "./utils/getElement.js";
 
 const taglineContainer = get("#taglines");
@@ -12,12 +13,21 @@ window.addEventListener("DOMContentLoaded", () => {
   // for reading material
   taglineContainer.innerHTML = displayTaglines(queries);
   
+  // Display content of featured work in reading room
+  showJacket(queries, 1);
+
+  // Make reading for featured work
+  const featuredWork = get("#featured-work");
+  featuredWork.addEventListener("click", () => {
+    showJacket(queries, 1);
+  })
+
   // Get all DOM objects class=uniqueWork
   // and add click events for their IDs
   const domLitWorks = document.querySelectorAll(".uniqueWork");
   domLitWorks.forEach(function(item) {
     item.addEventListener("click", () => {
-      displayQueryModal(queries, parseInt(item.id));
+      showJacket(queries, parseInt(item.id));
     })
   })
 });

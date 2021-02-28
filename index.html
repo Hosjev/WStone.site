@@ -4,33 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wendy Stone</title>
+    <link rel="shortcut icon" type="image/jpg" href="img/Feights-2.ico" />
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
     integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/default.css">
 </head>
 
 <body data-spy="scroll" data-target="#main-nav" id="home">
 
     <nav id="main-nav" class="navbar navbar-expand-sm navbar-dark fixed-top">
-        <div class="container">
-            <a href="#index.html" class="navbar-brand">
-                <img src="./img/brandCompBW.png" class="img img-fluid" width="70" height="70" alt=""></a>
-            <p class="d-none d-sm-block">Wendi Stone - author / rescue advocate / fencer</p>
+        <div class="container-fluid">
+            <a href="#home" class="navbar-brand">
+                <img src="./img/brandCompBW.gif" class="img img-fluid" width="68" height="68" alt=""></a>
+            <p class="d-none d-sm-block intro"><span style="color: mintcream;">Wendi Stone</span> - <small>author <span style="color: lime;">|</span> rescue advocate <span style="color: lime;">|</span> fencer</small></p>
             <button class="navbar-toggler" data-toggle="collapse" data-target="#navCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navCollapse">
                 <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a href="#home" class="nav-link">Home</a>
+                    <li class="nav-item mx-2">
+                        <a href="https://www.youtube.com/channel/UCaIo5smQlKwWCrlVFebHFuQ" target="_blank" class="nav-link">
+                            <i class="fab fa-youtube fa-2x"></i>
+                        </a>
                     </li>
-                    <li class="nav-item">
-                        <a href="https://www.youtube.com/channel/UCaIo5smQlKwWCrlVFebHFuQ" target="_blank" class="nav-link">YouTube</a>
+                    <li class="nav-item mx-2">
+                        <a href="https://twitter.com/W_Stone_Author" target="_blank" class="nav-link">
+                            <i class="fab fa-twitter fa-2x"></i>
+                        </a>
                     </li>
-                    <li class="nav-item">
-                        <a href="https://twitter.com/W_Stone_Author" target="_blank" class="nav-link">Twitter</a>
+                    <li class="nav-item mx-2">
+                        <a href="mailto:wstone.author@gmail.com" class="nav-link">
+                            <i class="fas fa-envelope fa-2x"></i>
+                        </a>
                     </li>
                     <!-- add tiktok -->
                 </ul>
@@ -39,15 +47,13 @@
     </nav>
 
     <header id="header-section">
-        <!-- <div class="dark-overlay"> -->
-            <div class="header-inner container">
-
+            <div class="header-inner container-fluid">
                 <!-- main featured work image -->
                 <div class="d-flex justify-content-center">
                     <div class="row">
-                        <div class="col-12 py-2">
-                            <!-- stubbing link out (modal query goes here) -->
-                            <a href="#">
+                        <div class="col py-2">
+                            <a href="#reading-section" id="featured-work">
+                                <!-- protect from download/add loading -->
                                 <img src="img/FigureEightsBigMomma.jpg" class="img img-fluid" alt="">
                             </a>
                         </div>
@@ -55,93 +61,94 @@
                 </div>
 
                 <!-- work title and excerpt -->
-                <div class="d-flex justify-content-center">
+                <div class="d-flex justify-content-center pt-2 pb-5">
                     <div class="row">
-                        <div class="col pt-2 pb-4 text-center">
-                            <h1 class="display-4">The Figure Eights</h1>
-                            <p>"An illustrated novel following the exploits of a genetically enhanced pudgy little canine with a hunger for world domination … and sausage."</p>
+                        <div class="col text-center">
+                            <h1 class="featured-title">The Figure Eights</h1>
+                            <p class="featured-blurb">An illustrated novel following the exploits of a genetically enhanced pudgy little canine with a hunger for world domination … and sausage.</p>
+                            <cite class="artists">story by <span>Wendy Stone</span></cite><br>
+                            <cite class="artists">artwork by <span>Amanda XX</span> and <span>Robert xx</span></cite>
                         </div>
                     </div>
                 </div>
 
             </div>
-        <!-- </div> -->
     </header>
 
     <!-- card section -->
     <section id="explore-section">
-        <div class="container mb-3">
-            <div class="d-flex justify-content-center p-2">
-                <div class="row">
-                    <div class="card col-md-4 p-2 mx-auto bg-transparent mb-2">
-                        <div class="card-header">
-                            <h4 class="d-inline">lit presence</h4>
-                            <i class="fas fa-certificate bg-transparent d-inline align-text-end"></i>
-                        </div>
-                        <div class="card-body card-bg-change">
-                            <div class="p-1">
-                                <i class="fas fa-ellipsis-v bg-transparent d-inline pr-1"></i>
-                                <p class="d-inline card-text">2016 Ozma Fantasy finalist for <strong>ID of Elle</strong></p>
+        <div class="container-fluid mb-3">
+            <div class="p-2 border-top">
+                <div class="d-flex row">
+                    <div class="col-md-4 mb-2 py-4">
+                        <div class="card p-2 bg-transparent" id="tagline-head">
+                            <div class="card-header">
+                                <h4 class="d-inline">works</h4>
+                                <small>(click taglines to get jacket)</small>
+                                <i id="feather-icon" class="fas fa-feather-alt bg-transparent d-inline ml-2"></i>
                             </div>
-                            <div class="p-1">
-                                <i class="fas fa-ellipsis-v bg-transparent d-inline pr-1"></i>
-                                <p class="d-inline">2019 finalist in Writer's Digest short story competition</p>
+                            <div class="card-body">
+                                <div id="taglines">
+                                    <!-- placeholder -->
+                                    <div class="p-1 tagline">
+                                        <i class="fas fa-quote-left bg-transparent d-inline"></i>
+                                        <p class="d-inline">
+                                            <a href="#">tagline 1</a>
+                                        </p>
+                                    </div>
+                                    <!-- end placeholder -->
+                                </div>
+                                <div class="p-1 ml-2 mt-3">
+                                    <i class="fas fa-ellipsis-v bg-transparent d-inline pr-1"></i>
+                                    <p class="d-inline card-text">2016 Ozma Fantasy finalist for <strong>ID of Elle</strong></p>
+                                </div>
+                                <div class="p-1 ml-2 short-momma">
+                                    <i class="fas fa-ellipsis-v bg-transparent d-inline pr-1"></i>
+                                    <p class="d-inline">Short published in online magazine "Across the Margin" -- 
+                                        <a href="https://acrossthemargin.com/big-mama-extorts-a-bank-loan/" target="_blank">
+                                            Big Momma Extorts a Bank Loan
+                                        </a>
+                                    </p>
+                                </div>
                             </div>
-                            <div class="p-1">
-                                <i class="fas fa-ellipsis-v bg-transparent d-inline pr-1"></i>
-                                <p class="d-inline">Short published in online magazine "Across the Margin" -- <strong>Big Mama Extorts a Bank Loan</strong></p>
-                            </div>
-                        </div>
-                        <div class="card-footer">
-                            <a href="https://acrossthemargin.com/big-mama-extorts-a-bank-loan/" target="_blank" class="btn btn-outline-secondary btn-block">Read Short</a>
                         </div>
                     </div>
-                    <!--2-->
-                    <div class="card col-md-4 p-2 mx-auto bg-transparent mb-2" id="tagline-head">
-                        <div class="card-header">
-                            <h4 class="d-inline">works</h4>
-                            <small>(click taglines to get jacket)</small>
-                            <i id="feather-icon" class="fas fa-feather-alt bg-transparent d-inline"></i>
-                        </div>
-                        <div class="card-body" id="taglines">
-                            <!-- modals for taglines to queries -->
-                            <!-- js call -->
-                            <div class="p-1 tagline">
-                                <i class="fas fa-quote-left bg-transparent d-inline"></i>
-                                <p class="d-inline">
-                                    <a href="#">tagline 1</a>
-                                </p>
-                            </div>
-                        </div>
-                        <div class="card-footer">
-                            <a id="tl1" href="mailto:wstone.author@gmail.com" class="btn btn-outline-secondary btn-block">Contact Me</a>
-                        </div>
-                    </div>
+
                     <!--3-->
-                    <div class="card col-md-4 p-2 mx-auto bg-transparent mb-2">
-                        <div class="card-header">
-                            <h4 class="d-inline">doggy stuff</h4>
-                            <i class="fas fa-paw bg-transparent d-inline"></i>
-                        </div>
-                        <div class="card-body card-bg-change">
-                            <!-- i fas for dog/cat -->
-                            <div class="p-1">
-                                <i class="fas fa-ellipsis-v bg-transparent d-inline pr-1"></i>
-                                <p class="d-inline">Need help with how to give doggy bones safely?</p>
+                    <div class="col-md-8 mb-2 py-4" id="reading-section">
+                        <div class="card p-2 bg-transparent">
+                            <div class="card-header">
+                                <h4 class="d-inline">reading room</h4>
+                                <i class="fas fa-book-reader bg-transparent d-inline ml-2"></i>
                             </div>
-                            <div class="p-1">
-                                <i class="fas fa-ellipsis-v bg-transparent d-inline pr-1"></i>
-                                <p class="d-inline">Ever considered hemp for your pup?</p>
+                            <div class="card-body card-bg-change bg-light text-dark" id="reading-room">
+                                <!-- <div class="area"> -->
+                                    <div class="d-flex flex-column justify-content-between">
+                                        <div class="reading border-bottom">
+                                            <h4>title</h4>
+                                        </div>
+                                        <div class="reading pt-2 px-2">
+                                            <p>Aleera Bellamy is a biomechanical engineer of renowned status and infamous acts. But with a high IQ and a low tolerance for meeting deadlines, Aleera fails yet again to create the ideal mechanical dog to satisfy her financier.</p>
+                                            <p>When her latest experiment yields a way to communicate commands to her creations—by capturing, digitizing and transmitting her own thoughts across the airwaves—she discovers a side-effect. Aleera can hear the thoughts of one of her organic subjects: Big Mama.
+                                            </p>
+                                            <p>Big Mama, Aleera’s right-hand and cybernetically-enhanced canine, assigns herself the role of brood-leader and mad-scientist lab assistant. But Big Mama isn’t just thirteen pounds of gorgeous flesh and fur. She’s part dog, part technology, and all ambition. And her cybernetic enhancements are altering her outlook on life—she wants more…of everything.
+                                            </p>
+                                            <p>Together, Big Mama and Aleera perfect their small army of robot dogs then set off into the
+                                            world to exact revenge on those who’ve been—as Big Mama would say—naughty dogs.</p>
+                                            <p>What will Big Mama and her brood of organic and inorganic canine friends become? And will her human be able to keep up…
+                                            </p>
+                                        </div>
+                                        <div class="reading ml-auto">
+                                            <small class="m-auto">words</small>
+                                            <small class="m-auto">|</small>
+                                            <small class="m-auto text-italic">genre</small>
+                                        </div>
+                                    </div>
+                                <!-- </div> -->
                             </div>
-                            <div class="p-1">
-                                <i class="fas fa-ellipsis-v bg-transparent d-inline pr-1"></i>
-                                <p class="d-inline">Want to build your own litter box?</p>
-                            </div>
-                        </div>
-                        <div class="card-footer">
-                            <a href="#" class="btn btn-outline-secondary btn-block">Doggy Blog</a>
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>
@@ -150,7 +157,7 @@
 
 
     <footer id="main-footer">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col py-4 text-center">
                     <div>
@@ -163,9 +170,9 @@
     </footer>
 
     <!-- reference to top -->
-    <div class="container fixed-bottom mb-3 to-top-link">
+    <div class="container-fluid fixed-bottom mb-3 to-top-link">
             <div class="d-flex justify-content-end">
-                <a href="#" class="text-white">
+                <a href="#">
                     <i class="fas fa-arrow-up fa-2x"></i>
                 </a>
             </div>
@@ -204,6 +211,12 @@
                 }
             })
 
+        // disable right-clicking on imgs
+        $(function() {
+            $('img').bind('contextmenu', function() {
+                return false;
+            })
+        })
 
     </script>
 
