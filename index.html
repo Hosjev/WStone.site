@@ -53,8 +53,11 @@
                     <div class="row">
                         <div class="col py-2">
                             <a href="#reading-section" id="featured-work">
-                                <!-- protect from download/add loading -->
-                                <img src="img/FigureEightsBigMomma.jpg" class="img img-fluid" alt="">
+                                <img 
+                                src="./loading.gif"
+                                class="img img-fluid lazy"
+                                data-src="img/FigureEightsBigMomma.jpg"
+                                alt="">
                             </a>
                         </div>
                     </div>
@@ -67,7 +70,7 @@
                             <h1 class="featured-title">The Figure Eights</h1>
                             <p class="featured-blurb">An illustrated novel following the exploits of a genetically enhanced pudgy little canine with a hunger for world domination … and sausage.</p>
                             <cite class="artists">story by <span>Wendy Stone</span></cite><br>
-                            <cite class="artists">artwork by <span>Amanda XX</span> and <span>Robert xx</span></cite>
+                            <cite class="artists">artwork by <span>Amanda Smith</span> and <span>William Kozak</span></cite>
                         </div>
                     </div>
                 </div>
@@ -75,7 +78,7 @@
             </div>
     </header>
 
-    <!-- card section -->
+    <!-- explore section/taglines -->
     <section id="explore-section">
         <div class="container-fluid mb-3">
             <div class="p-2 border-top">
@@ -93,7 +96,7 @@
                                     <div class="p-1 tagline">
                                         <i class="fas fa-quote-left bg-transparent d-inline"></i>
                                         <p class="d-inline">
-                                            <a href="#">tagline 1</a>
+                                            <a href="#">Big Momma</a>
                                         </p>
                                     </div>
                                     <!-- end placeholder -->
@@ -122,29 +125,27 @@
                                 <i class="fas fa-book-reader bg-transparent d-inline ml-2"></i>
                             </div>
                             <div class="card-body card-bg-change bg-light text-dark" id="reading-room">
-                                <!-- <div class="area"> -->
-                                    <div class="d-flex flex-column justify-content-between">
-                                        <div class="reading border-bottom">
-                                            <h4>title</h4>
-                                        </div>
-                                        <div class="reading pt-2 px-2">
-                                            <p>Aleera Bellamy is a biomechanical engineer of renowned status and infamous acts. But with a high IQ and a low tolerance for meeting deadlines, Aleera fails yet again to create the ideal mechanical dog to satisfy her financier.</p>
-                                            <p>When her latest experiment yields a way to communicate commands to her creations—by capturing, digitizing and transmitting her own thoughts across the airwaves—she discovers a side-effect. Aleera can hear the thoughts of one of her organic subjects: Big Mama.
-                                            </p>
-                                            <p>Big Mama, Aleera’s right-hand and cybernetically-enhanced canine, assigns herself the role of brood-leader and mad-scientist lab assistant. But Big Mama isn’t just thirteen pounds of gorgeous flesh and fur. She’s part dog, part technology, and all ambition. And her cybernetic enhancements are altering her outlook on life—she wants more…of everything.
-                                            </p>
-                                            <p>Together, Big Mama and Aleera perfect their small army of robot dogs then set off into the
-                                            world to exact revenge on those who’ve been—as Big Mama would say—naughty dogs.</p>
-                                            <p>What will Big Mama and her brood of organic and inorganic canine friends become? And will her human be able to keep up…
-                                            </p>
-                                        </div>
-                                        <div class="reading ml-auto">
-                                            <small class="m-auto">words</small>
-                                            <small class="m-auto">|</small>
-                                            <small class="m-auto text-italic">genre</small>
-                                        </div>
+                                <div class="d-flex flex-column justify-content-between">
+                                    <div class="reading border-bottom">
+                                        <h4>title</h4>
                                     </div>
-                                <!-- </div> -->
+                                    <div class="reading pt-2 px-2">
+                                        <p>Aleera Bellamy is a biomechanical engineer of renowned status and infamous acts. But with a high IQ and a low tolerance for meeting deadlines, Aleera fails yet again to create the ideal mechanical dog to satisfy her financier.</p>
+                                        <p>When her latest experiment yields a way to communicate commands to her creations—by capturing, digitizing and transmitting her own thoughts across the airwaves—she discovers a side-effect. Aleera can hear the thoughts of one of her organic subjects: Big Momma.
+                                        </p>
+                                        <p>Big Momma, Aleera’s right-hand and cybernetically-enhanced canine, assigns herself the role of brood-leader and mad-scientist lab assistant. But Big Momma isn’t just thirteen pounds of gorgeous flesh and fur. She’s part dog, part technology, and all ambition. And her cybernetic enhancements are altering her outlook on life—she wants more…of everything.
+                                        </p>
+                                        <p>Together, Big Momma and Aleera perfect their small army of robot dogs then set off into the
+                                        world to exact revenge on those who’ve been—as Big Momma would say—naughty dogs.</p>
+                                        <p>What will Big Momma and her brood of organic and inorganic canine friends become? And will her human be able to keep up…
+                                        </p>
+                                    </div>
+                                    <div class="reading ml-auto">
+                                        <small class="m-auto">words</small>
+                                        <small class="m-auto">|</small>
+                                        <small class="m-auto text-italic">genre</small>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -163,7 +164,6 @@
                     <div>
                         <p class="d-inline">Wendy Stone -- Copyright &copy; <span id="year"></span></p>
                     </div>
-                    <!-- <button class="btn btn-primary" data-toggle="modal" data-target="#contactModal">Contact</button> -->
                 </div>
             </div>
         </div>
@@ -217,6 +217,12 @@
                 return false;
             })
         })
+
+        // lazy loading header image
+        let lazy = document.getElementsByClassName('lazy');
+            for (let i = 0; i < lazy.length; i++) {
+                lazy[i].src = lazy[i].getAttribute('data-src');
+        }
 
     </script>
 
