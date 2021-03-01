@@ -1,5 +1,4 @@
 import { queries } from "./utils/data.js";
-import displayQueryModal from "./utils/displayQueryModal.js";
 import displayTaglines from "./utils/displayTaglines.js";
 import showJacket from "./utils/displayReading.js";
 import get from "./utils/getElement.js";
