@@ -82,6 +82,12 @@ body {
   /* overflow-x: hidden; */
 }
 
+/*
+======
+NAVBAR
+======
+*/
+
 .navbar {
   border-bottom: #38393a 2px solid;
   background: #333;
@@ -97,6 +103,13 @@ nav .intro {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 1.02rem;
+}
+
+.mobile-text {
+  color: lime;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 /*
