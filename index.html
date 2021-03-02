@@ -32,7 +32,6 @@
                         <li class="nav-item mx-2">
                             <a href="https://www.youtube.com/channel/UCaIo5smQlKwWCrlVFebHFuQ" target="_blank" class="nav-link">
                                 <i class="fab fa-youtube fa-2x d-none d-sm-block"></i>
-                                <!-- on xsmall -->
                                 <span class="d-sm-none mobile-text">Storytelling</span>
                             </a>
                         </li>
@@ -66,7 +65,7 @@
                         <div class="col py-2">
                             <a href="#reading-section" id="featured-work">
                                 <img 
-                                src="./loading.gif"
+                                src="img/loading.gif"
                                 class="img img-fluid lazy"
                                 data-src="img/FigureEightsBigMomma.jpg"
                                 alt="">
@@ -108,7 +107,7 @@
                                     <div class="p-1 tagline">
                                         <i class="fas fa-quote-left bg-transparent d-inline"></i>
                                         <p class="d-inline">
-                                            <a href="#">Big Momma</a>
+                                            <a href="#reading-section">What would your dog do with an army of canine robots at her command?</a>
                                         </p>
                                     </div>
                                     <!-- end placeholder -->
@@ -231,7 +230,6 @@
 
         // lazy loading header image
         let lazy = document.getElementsByClassName('lazy');
-        console.log(lazy);
             for (let i = 0; i < lazy.length; i++) {
                 lazy[i].src = lazy[i].getAttribute('data-src');
         }
