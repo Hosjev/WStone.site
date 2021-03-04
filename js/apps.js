@@ -5,6 +5,7 @@ import get from "./utils/getElement.js";
 
 const taglineContainer = get("#taglines");
 const topLink = get(".to-top-link");
+const mobileNav = get("#navCollapse");
 
 // Load tagline section after DOM
 window.addEventListener("DOMContentLoaded", () => {
@@ -29,6 +30,12 @@ window.addEventListener("DOMContentLoaded", () => {
       showJacket(queries, parseInt(item.id));
     })
   })
+
+  // close nav menu when mouse leaves
+  mobileNav.addEventListener("mouseout", () => {
+    mobileNav.classList.remove("show");
+  })
+
 });
 
 
