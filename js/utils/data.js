@@ -5,7 +5,7 @@ export const queries = [
     genre: "graphic novel, mech",
     wc: "42k",
     tagline: "What would your dog do with an army of canine robots at her command?",
-    text: ["Aleera Bellamy is a biomechanical engineer of renowned status and infamous acts. But with a high IQ and a low tolerance for meeting deadlines, Aleera fails yet again to create the ideal mechanical dog to satisfy her financier.", "When her latest experiment yields a way to communicate commands to her creations—by capturing, digitizing and transmitting her own thoughts across the airwaves—she discovers a side-effect. Aleera can hear the thoughts of one of her organic subjects: Big Mama.", "Big Mama, Aleera’s right-hand and cybernetically-enhanced canine, assigns herself the role of brood-leader and mad-scientist lab assistant. But Big Mama isn’t just thirteen pounds of gorgeous flesh and fur. She’s part dog, part technology, and all ambition. And her cybernetic enhancements are altering her outlook on life—she wants more…of everything.", "Together, Big Mama and Aleera perfect their small army of robot dogs then set off into the world to exact revenge on those who’ve been—as Big Mama would say—naughty dogs.", "What will Big Mama and her brood of organic and inorganic canine friends become? And will her human be able to keep up…"]
+    text: ["Aleera Bellamy is a biomechanical engineer of renowned status and infamous acts. But with a high IQ and a low tolerance for meeting deadlines, Aleera fails yet again to create the ideal mechanical dog to satisfy her financier.", "When her latest experiment yields a way to communicate commands to her creations—by capturing, digitizing and transmitting her own thoughts across the airwaves—she discovers a side-effect. Aleera can hear the thoughts of one of her organic subjects: Big Momma.", "Big Momma, Aleera’s right-hand and cybernetically-enhanced canine, assigns herself the role of brood-leader and mad-scientist lab assistant. But Big Momma isn’t just thirteen pounds of gorgeous flesh and fur. She’s part dog, part technology, and all ambition. And her cybernetic enhancements are altering her outlook on life—she wants more…of everything.", "Together, Big Momma and Aleera perfect their small army of robot dogs then set off into the world to exact revenge on those who’ve been—as Big Momma would say—naughty dogs.", "What will Big Momma and her brood of organic and inorganic canine friends become? And will her human be able to keep up…"]
   },
   {
     id: 2,
@@ -20,7 +20,7 @@ export const queries = [
     title: "The Wayward Siren",
     genre: "fantasy, historical, heady",
     wc: "90k", 
-    tagline: "She saw the truth too late.", 
+    tagline: "A witch, a witch, whose ears may twitch hearing your secrets whispered.", 
     text: ["Kay Machorius, an unclaimed witch, must infiltrate a band of domestic terrorists set on destroying arms headed toward Vietnam. Kay’s handler wants the band’s leaders. The band, known as the Guild, wants her power, her siren’s voice, to change the direction of the war. Beholden to money, not politics or ideals, and though spellbound by the Guild’s powerful D.C. matriarch, Kay’s faith lies in her handler who’s been more of a father. Kay commits fully to audibly seducing her matriarch when the Guild threatens Kay’s little brother. Matty is the only family Kay has left and the one person who pierces the formidable armor she’s spent years constructing. But when Kay learns the Guild leaders are wanted for more than sedition, she’s drawn into a conspiracy her handler personally buried. And as Kay unlocks the collective Guild mind, nearing the leaders, one thing becomes certain: her planned exit from a shadowed life of espionage will not be silent ... or gentle."]
   },
   { 
@@ -28,7 +28,7 @@ export const queries = [
     title: "The Hydros Player",
     genre: "fantasy, contemporary",
     wc: "90k", 
-    tagline: "As she died, the water came to life.", 
+    tagline: "As Charlie died, the water came to life.", 
     text: ["Charlotte (Charlie) Walker has completed a lifelong journey overcoming her irrational fears of water. She’s a recent hydrology alum, a scientist, like her father. But her future derails when she returns from death able to see H₂O at the molecular level. And while collecting freshwater samples from deep in the Carson Range, she catches a man dumping toxins. Under her influence, the man nearly drowns in his own fluids. The proof lay writhing at her feet—she’s a witch.", "The state coven leaders condemn her outburst then offer covenship at a price—practice the approved, concealed craft. But for her forests and its animals, Charlie can’t afford to hide. Her sample collection grows revealing a deadly chemical signature. As she plots its source, she’s targeted by a con man who wants her data, and her silence. Worse—he’s aided by a rogue witch. The coven stands ready to defend Charlie and focus her mercurial power. But Charlie struggles to embrace the gift that could save their aquifer—the accident that made her a witch also took a loved one. And with the rogue witch casting against her and a rival coven vying for her membership, Charlie is caught in the crosshairs of a brewing witches’ civil war."]
   },
   { 
