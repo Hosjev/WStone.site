@@ -3,9 +3,9 @@ export const queries = [
     id: 1,
     title: "The Figure Eights (featured work)",
     genre: "graphic novel, mech",
-    wc: "42k",
+    wc: "34k",
     tagline: "What would your dog do with an army of canine robots at her command?",
-    text: ["Aleera Bellamy is a biomechanical engineer of renowned status and infamous acts. But with a high IQ and a low tolerance for meeting deadlines, Aleera fails yet again to create the ideal mechanical dog to satisfy her financier.", "When her latest experiment yields a way to communicate commands to her creations—by capturing, digitizing and transmitting her own thoughts across the airwaves—she discovers a side-effect. Aleera can hear the thoughts of one of her organic subjects: Big Momma.", "Big Momma, Aleera’s right-hand and cybernetically-enhanced canine, assigns herself the role of brood-leader and mad-scientist lab assistant. But Big Momma isn’t just thirteen pounds of gorgeous flesh and fur. She’s part dog, part technology, and all ambition. And her cybernetic enhancements are altering her outlook on life—she wants more…of everything.", "Together, Big Momma and Aleera perfect their small army of robot dogs then set off into the world to exact revenge on those who’ve been—as Big Momma would say—naughty dogs.", "What will Big Momma and her brood of organic and inorganic canine friends become? And will her human be able to keep up…"]
+    text: ["Big Momma is thirteen pounds of gorgeous flesh and fur. Her human, Aleera, is Big Momma’s beloved biomechanical genius. When Aleera fixes Big Momma’s faulty spinal cord with an experimental microchip, Big Momma hungers for more than Steak Tip Stew. She becomes part canine, part cyborg, and all ambition.", "Spurned by a lover and rejected by her peers, Aleera, with Big Momma’s help, plots revenge on those who’ve wronged them using their small army of robot dogs. But as Big Momma demonstrates a command of the mech dogs, and her chip sprouts new avenues toward her grey matter, Aleera fears her own place in the pack living with a four-legged creature outpacing her intellectual upward mobility.", "Big Momma is brood leader to the pack, organic and machine alike. She’s foodie raconteur and chef. She’s furry compañero—a pathway to canine liberation. And she’s becoming more every day."]
   },
   {
     id: 2,
