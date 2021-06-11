@@ -13,7 +13,7 @@ export const queries = [
     genre: "fantasy, dog-lovers",
     wc: "70k",
     tagline: "In a world where royal canines rule, the mutts are forgotten.",
-    text: ["In the five boroughs of New York, seven canine clans rule as an oligarchy with millions of mutts under their dewclaw. Deacon Tawnyside, mutt and private investigator, is looking for Jomi, a young dog accused of conspiring to undermine the Seven.", "With the twelve-year coronations on the horizon, Deacon discovers that Jomi is a member of the Dirty Mongrels, an anti-clannie anarchist gang, and that they’re waging a war. As Deacon's nose leads him closer to Jomi, and his other missing dogs, the stink is unmistakable. Either he’s misreading the clues, or someone is intent on executing a genocide.", "Though the nose never lies, the scents tear Deacon in every direction. His temper boils as the cases splinter and rejoin into ugly truths. But all that stands between the Mongrels and the Seven pitting dog against dog is him and the coronations, the apparent final battleground."]
+    text: ["In the five boroughs of New York, seven canine clans rule as an oligarchy with millions of mutts under their dewclaw. Deacon Tawnyside, mutt and private investigator, is looking for Jomi, a young dog accused of conspiring to undermine the Seven.", "With the twelve-year coronations on the horizon, Deacon discovers that Jomi is a member of the Dirty Mongrels, an anti-clannie anarchist gang, and that they’re waging a war. As Deacon's nose leads him closer to Jomi, and his other missing dogs, the stink is unmistakable. Either he’s misreading the clues, or someone is intent on executing a genocide.", "Though the nose never lies, the scents tear Deacon in every direction. His temper boils as the cases splinter and rejoin into ugly truths. But all that stands between the Mongrels and the Seven pitting dog against dog is him and the coronations, the apparent final battleground.", "***Explore the free audio version on Wendy's YouTube channel..."]
   },
   { 
     id: 3, 
@@ -33,7 +33,7 @@ export const queries = [
   },
   { 
     id: 5, 
-    title: "ID of Elle",
+    title: "Township of the Psyche: ID of Elle",
     genre: "fantasy, heady",
     wc: "87k", 
     tagline: "The Tooth Fairy was the first psychic creation. Now she's the most bored.", 
