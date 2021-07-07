@@ -3,10 +3,9 @@ export const queries = [
     id: 1,
     title: "The Figure Eights (featured work)",
     genre: "graphic novel, mech",
-    wc: "34k",
-    tagline: "Brood leader, foodie, furry compañero--Big Momma's on the rise.",
-    text: ["Big Momma is thirteen pounds of gorgeous flesh and fur. Her human, Aleera, is Big Momma’s beloved biomechanical genius. When Aleera fixes Big Momma’s faulty spinal cord with an experimental microchip, their communication is taken to a new level. Big Momma speaks inside Aleera’s head with an authority demanding more than infrequent potty breaks and expired cans of Steak Tip Stew. She becomes part canine, part cyborg, and all ambition.", "Though Big Momma’s human is quick with a torque, she flounders at coexisting with her fellow fleshy bipeds. When spurned by a narcissistic lover and rejected by her peers, Aleera vows revenge on those who’ve wronged her using their small army of robot dogs, the Figure Eights. But as Big Momma demonstrates a command of the mech dogs, and the chip in her head sprouts new pathways, Aleera fears her own place in the pack. She could be living with a four-legged creature outpacing her hunger for knowledge and retribution. And as Big Momma stages a rescue of tyrannized pups, rallying the house dogs and Figure Eights, Aleera decides Big Momma has derailed the natural order and covertly plans to put things right.
-"]
+    wc: "35k",
+    tagline: "Brood leader, foodie, furry compañero -- Big Momma is on the rise.",
+    text: ["Big Momma is thirteen pounds of gorgeous flesh and fur. Her human, Aleera, is Big Momma’s beloved biomechanical genius. When Aleera fixes Big Momma’s faulty spinal cord with an experimental microchip, their communication is taken to a new level. Big Momma speaks inside Aleera’s head with an authority demanding more than infrequent potty breaks and expired cans of Steak Tip Stew. She becomes part canine, part cyborg, and all ambition.", "Though Big Momma’s human is quick with a torque, she flounders at coexisting with her fellow fleshy bipeds. When spurned by a narcissistic lover and rejected by her peers, Aleera vows revenge on those who’ve wronged her using their small army of robot dogs, the Figure Eights. But as Big Momma demonstrates a command of the mech dogs, and the chip in her head sprouts new pathways, Aleera fears her own place in the pack. She could be living with a four-legged creature outpacing her hunger for knowledge and retribution. And as Big Momma stages a rescue of tyrannized pups, rallying the house dogs and Figure Eights, Aleera decides Big Momma has derailed the natural order and covertly plans to put things right."]
   },
   {
     id: 2,
